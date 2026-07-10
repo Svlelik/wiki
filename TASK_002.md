@@ -34,9 +34,9 @@ SQL-файл для просмотра активных запросов в Post
 
 ## Входные данные
 
-- [TASK.md](/home/as/work/repos/home/wiki/TASK.md)
-- [TASK_TEMPLATE.md](/home/as/work/repos/home/wiki/TASK_TEMPLATE.md)
-- Каталог [Postgres](/home/as/work/repos/home/wiki/Postgres)
+- [TASK.md](TASK.md)
+- [TASK_TEMPLATE.md](TASK_TEMPLATE.md)
+- Каталог [Postgres](Postgres)
 
 ## Шаги
 

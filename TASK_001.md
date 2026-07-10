@@ -34,8 +34,8 @@
 
 ## Входные данные
 
-- [TASK.md](/home/as/work/repos/home/wiki/TASK.md)
-- [TASK_TEMPLATE.md](/home/as/work/repos/home/wiki/TASK_TEMPLATE.md)
+- [TASK.md](TASK.md)
+- [TASK_TEMPLATE.md](TASK_TEMPLATE.md)
 
 ## Шаги
 
@@ -47,7 +47,7 @@
 
 - [x] В репозитории созданы все согласованные каталоги верхнего уровня.
 - [x] В `TASK.md` есть краткая запись по задаче `001`.
-- [x] Создан файл [TASK_001.md](/home/as/work/repos/home/wiki/TASK_001.md) с кратким описанием задачи.
+- [x] Создан файл [TASK_001.md](TASK_001.md) с кратким описанием задачи.
 
 ## Вопросы
 

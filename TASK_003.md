@@ -34,8 +34,8 @@
 
 ## Входные данные
 
-- [TASK.md](/home/as/work/repos/home/wiki/TASK.md)
-- [Linux](/home/as/work/repos/home/wiki/Linux)
+- [TASK.md](TASK.md)
+- [Linux](Linux)
 
 ## Шаги
 
