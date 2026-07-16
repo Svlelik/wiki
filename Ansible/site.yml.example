@@ -1,0 +1,12 @@
+---
+- name: Check web servers
+  hosts: webservers
+  gather_facts: true
+
+  tasks:
+    - name: Ping host
+      ansible.builtin.ping:
+
+    - name: Show distribution
+      ansible.builtin.debug:
+        msg: "{{ ansible_distribution }} {{ ansible_distribution_version }}"

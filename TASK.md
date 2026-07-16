@@ -34,3 +34,4 @@
 | 009 | done | Описать устройство Docker, основные компоненты, containerd, runc и shim | `Tasks/TASK_009.md` | 2026-05-03 |
 | 010 | done | Подготовить инструкцию по GlusterFS: установка, volume, client mount и диагностика | `Tasks/TASK_010.md` | 2026-06-01 |
 | 011 | done | Подготовить статью о переключении контекстов в Kubernetes | `Tasks/TASK_011.md` | 2026-07-16 |
+| 012 | done | Подготовить материалы по базовым командам Ansible: установка, запуск playbook и SSH-диагностика | `Tasks/TASK_012.md` | 2026-07-16 |

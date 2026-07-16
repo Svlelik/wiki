@@ -20,6 +20,20 @@
 
 ## Записи
 
+### 2026-07-16 10:47 - TASK_012 - done
+
+- Что сделано: созданы материалы `Ansible/install-venv.md`, `Ansible/run-playbook.md`, `Ansible/ssh-troubleshooting.md`; добавлены примеры `Ansible/ansible.cfg.example`, `Ansible/hosts.ini.example`, `Ansible/site.yml.example`; обновлен `Ansible/README.md`.
+- Где остановились: задача завершена, материалы по базовым командам Ansible добавлены в wiki.
+- Что дальше: при необходимости добавить отдельные материалы по структуре Ansible-проекта, ролям, group_vars, Ansible Vault и collections.
+- Блокеры: нет
+
+### 2026-07-16 10:43 - TASK_012 - todo
+
+- Что сделано: заведена задача `TASK_012.md` на подготовку отдельных материалов по Ansible: установка в Python venv, запуск playbook и диагностика SSH-ошибок `Host key verification failed` / `ssh_askpass`.
+- Где остановились: постановка задачи готова, материалы в разделе `Ansible` еще не созданы.
+- Что дальше: создать файлы `Ansible/install-venv.md`, `Ansible/run-playbook.md`, `Ansible/ssh-troubleshooting.md` и примеры `ansible.cfg`, `hosts.ini`, `site.yml`.
+- Блокеры: нет
+
 ### 2026-07-16 10:24 - TASK_011 - done
 
 - Что сделано: создан файл `Kubernetes/contexts.md` со статьей о переключении контекстов в Kubernetes; обновлен `Kubernetes/README.md`; `TASK_011.md` переведен в `done` и подготовлен к переносу в `Tasks/`.
