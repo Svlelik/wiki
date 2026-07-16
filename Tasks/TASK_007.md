@@ -42,8 +42,8 @@
 
 ## Входные данные
 
-- [TASK.md](TASK.md)
-- [TASK_TEMPLATE.md](TASK_TEMPLATE.md)
+- [TASK.md](../TASK.md)
+- [TASK_TEMPLATE.md](../TASK_TEMPLATE.md)
 - Корень wiki-репозитория для создания каталога `Docker`
 
 ## Шаги

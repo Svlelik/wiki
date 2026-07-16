@@ -34,8 +34,8 @@
 
 ## Входные данные
 
-- [TASK.md](TASK.md)
-- [TASK_TEMPLATE.md](TASK_TEMPLATE.md)
+- [TASK.md](../TASK.md)
+- [TASK_TEMPLATE.md](../TASK_TEMPLATE.md)
 
 ## Шаги
 

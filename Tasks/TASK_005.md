@@ -35,9 +35,9 @@
 
 ## Входные данные
 
-- [TASK.md](TASK.md)
-- [TASK_TEMPLATE.md](TASK_TEMPLATE.md)
-- Каталог [Postgres](Postgres)
+- [TASK.md](../TASK.md)
+- [TASK_TEMPLATE.md](../TASK_TEMPLATE.md)
+- Каталог [Postgres](../Postgres)
 
 ## Шаги
 

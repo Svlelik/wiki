@@ -34,8 +34,8 @@
 
 ## Входные данные
 
-- [TASK.md](TASK.md)
-- [Linux](Linux)
+- [TASK.md](../TASK.md)
+- [Linux](../Linux)
 
 ## Шаги
 

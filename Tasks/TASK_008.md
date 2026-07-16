@@ -42,10 +42,10 @@
 
 ## Входные данные
 
-- [TASK.md](TASK.md)
-- [TASK_TEMPLATE.md](TASK_TEMPLATE.md)
-- Каталог [Docker](Docker)
-- Базовая заметка [Docker/basic-commands.md](Docker/basic-commands.md)
+- [TASK.md](../TASK.md)
+- [TASK_TEMPLATE.md](../TASK_TEMPLATE.md)
+- Каталог [Docker](../Docker)
+- Базовая заметка [Docker/basic-commands.md](../Docker/basic-commands.md)
 
 ## Шаги
 

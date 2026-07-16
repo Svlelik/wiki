@@ -46,12 +46,12 @@
 
 ## Входные данные
 
-- [TASK.md](TASK.md)
-- [TASK_TEMPLATE.md](TASK_TEMPLATE.md)
-- Каталог [Docker](Docker)
-- Базовая заметка [Docker/basic-commands.md](Docker/basic-commands.md)
-- Заметка по volumes [Docker/volumes.md](Docker/volumes.md)
-- Заметка по registry [Docker/registry.md](Docker/registry.md)
+- [TASK.md](../TASK.md)
+- [TASK_TEMPLATE.md](../TASK_TEMPLATE.md)
+- Каталог [Docker](../Docker)
+- Базовая заметка [Docker/basic-commands.md](../Docker/basic-commands.md)
+- Заметка по volumes [Docker/volumes.md](../Docker/volumes.md)
+- Заметка по registry [Docker/registry.md](../Docker/registry.md)
 
 ## Шаги
 

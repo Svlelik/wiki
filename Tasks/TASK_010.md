@@ -49,10 +49,10 @@
 
 ## Входные данные
 
-- [TASK.md](TASK.md)
-- [TASK_TEMPLATE.md](TASK_TEMPLATE.md)
-- [GlusterFS/basic-setup.md](GlusterFS/basic-setup.md)
-- Каталог [Linux](Linux)
+- [TASK.md](../TASK.md)
+- [TASK_TEMPLATE.md](../TASK_TEMPLATE.md)
+- [GlusterFS/basic-setup.md](../GlusterFS/basic-setup.md)
+- Каталог [Linux](../Linux)
 - Документация GlusterFS
 
 ## Шаги

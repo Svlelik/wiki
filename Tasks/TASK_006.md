@@ -38,10 +38,10 @@
 
 ## Входные данные
 
-- [TASK.md](TASK.md)
-- [TASK_TEMPLATE.md](TASK_TEMPLATE.md)
-- Каталог [Linux](Linux)
-- Существующие Linux-заметки: [Linux/find.md](Linux/find.md), [Linux/sort.md](Linux/sort.md)
+- [TASK.md](../TASK.md)
+- [TASK_TEMPLATE.md](../TASK_TEMPLATE.md)
+- Каталог [Linux](../Linux)
+- Существующие Linux-заметки: [Linux/find.md](../Linux/find.md), [Linux/sort.md](../Linux/sort.md)
 
 ## Шаги
 
