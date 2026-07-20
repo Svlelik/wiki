@@ -35,3 +35,4 @@
 | 010 | done | Подготовить инструкцию по GlusterFS: установка, volume, client mount и диагностика | `Tasks/TASK_010.md` | 2026-06-01 |
 | 011 | done | Подготовить статью о переключении контекстов в Kubernetes | `Tasks/TASK_011.md` | 2026-07-16 |
 | 012 | done | Подготовить материалы по базовым командам Ansible: установка, запуск playbook и SSH-диагностика | `Tasks/TASK_012.md` | 2026-07-16 |
+| 013 | done | Подготовить инструкцию по интеграции Vault с Kubernetes через External Secrets Operator и Argo CD | `Tasks/TASK_013.md` | 2026-07-20 |

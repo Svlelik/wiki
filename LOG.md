@@ -20,6 +20,27 @@
 
 ## Записи
 
+### 2026-07-20 16:26 - TASK_013 - done
+
+- Что сделано: по решению владельца ротация credential и rollout ESO/Vault auth в живых окружениях исключены из объема; документационная часть принята завершенной, `TASK_013.md` переведен в `done` и перенесен в `Tasks/`.
+- Где остановились: инструкция, обезличенные примеры и проверки пилота `points-adm` готовы; задача закрыта без изменений живой инфраструктуры.
+- Что дальше: использовать `Vault/kubernetes-external-secrets.md` как runbook, если внедрение в `stage`, `prod` или `cloud` будет согласовано отдельной задачей.
+- Блокеры: нет.
+
+### 2026-07-20 16:22 - TASK_013 - blocked
+
+- Что сделано: создана инструкция `Vault/kubernetes-external-secrets.md` и обезличенный Helm chart в `Vault/examples`; обновлены README; chart прошел `helm lint`, `helm template` и server-side dry-run. В живом `dev` подтверждены Vault `1.20.1`, ESO `2.1.0`, валидный `ClusterSecretStore`, `SecretSynced`, `envFrom`, наличие семи переменных без вывода значений, успешный rollout и статус Argo CD `Synced/Healthy`. `Vault/pre_vault.md` отсутствует в истории Git и добавлен в `.gitignore`.
+- Где остановились: документация и пилот `points-adm` в `dev` готовы; ESO отсутствует в `stage`, `prod`, `cloud`; раскрытые учетные данные не ротированы из-за отсутствия административных доступов к Vault и исходным системам.
+- Что дальше: ротировать credential в PostgreSQL, Kafka, Keycloak и DWH, затем через GitOps установить ESO и настроить отдельные Vault auth mount/policy/role в `stage`, `prod`, `cloud`; после подтверждения перенести `TASK_013.md` в `Tasks/`.
+- Блокеры: нет Vault credentials, доступов к исходным системам и GitOps-репозитория Argo CD; rollout в живые окружения требует согласования.
+
+### 2026-07-20 16:02 - TASK_013 - todo
+
+- Что сделано: изучен `Vault/pre_vault.md`; заведена задача `TASK_013.md` на подготовку инструкции по интеграции единого Vault в `cloud` с четырьмя Kubernetes-кластерами через External Secrets Operator, Helm и Argo CD.
+- Где остановились: зафиксированы фактическое состояние пилота `points-adm`, работающая синхронизация Secret через ESO, отсутствие `envFrom` в Deployment, ошибка структуры values и требования к ротации раскрытых учетных данных; основная инструкция еще не создана.
+- Что дальше: проверить версии и текущую конфигурацию Vault/ESO, ротировать раскрытые секреты, исправить Helm-шаблон и подготовить материал `Vault/kubernetes-external-secrets.md` с обезличенными примерами.
+- Блокеры: для проверенных манифестов и end-to-end проверки нужны фактические версии компонентов и доступ к Vault, Argo CD и Kubernetes-кластерам.
+
 ### 2026-07-16 10:47 - TASK_012 - done
 
 - Что сделано: созданы материалы `Ansible/install-venv.md`, `Ansible/run-playbook.md`, `Ansible/ssh-troubleshooting.md`; добавлены примеры `Ansible/ansible.cfg.example`, `Ansible/hosts.ini.example`, `Ansible/site.yml.example`; обновлен `Ansible/README.md`.

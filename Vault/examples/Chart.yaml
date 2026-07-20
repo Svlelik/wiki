@@ -1,0 +1,6 @@
+apiVersion: v2
+name: vault-eso-example
+description: Sanitized example of Vault, ESO, and Deployment integration
+type: application
+version: 0.1.0
+appVersion: "example"

@@ -8,7 +8,8 @@
 - `Postgres/` - SQL и материалы по PostgreSQL.
 - `Docker/` - базовые команды Docker, архитектура, volumes и registry.
 - `GlusterFS/` - материалы по распределенному файловому хранилищу GlusterFS.
-- `Python/`, `Airflow/`, `Kubernetes/`, `Kafka/`, `Ansible/`, `Terraform/`, `Git/`, `Vault/`, `Elasticsearch/` - подготовленные разделы для будущего наполнения.
+- `Vault/` - интеграция HashiCorp Vault с Kubernetes и External Secrets Operator.
+- `Python/`, `Airflow/`, `Kubernetes/`, `Kafka/`, `Ansible/`, `Terraform/`, `Git/`, `Elasticsearch/` - тематические разделы wiki.
 - `TASK.md` - краткий реестр задач.
 - `TASK_XXX.md` - подробные описания активных и запланированных задач.
 - `Tasks/` - архив подробных описаний завершенных задач.

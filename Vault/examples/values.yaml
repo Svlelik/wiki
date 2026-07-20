@@ -1,0 +1,53 @@
+name: points-adm
+replicaCount: 1
+image: registry.example.internal/points-adm:example
+port: 8000
+
+vault:
+  server: https://vault.oro.moscow
+  kvMount: secret
+  kvVersion: v2
+  authMount: k8s-dev
+  role: app
+  serviceAccount:
+    name: external-secrets
+    namespace: external-secrets
+  audience: vault
+
+externalSecret:
+  name: points-adm-secret
+  refreshInterval: 1h
+  remoteKey: dev/mediascope/app/backend/points-adm
+
+envFrom:
+  - secretRef:
+      name: points-adm-secret
+
+env:
+  SERVICE_ENV: DEV
+  SERVICE_NAME: points-adm
+  SERVICE_HOST: 0.0.0.0
+  SERVICE_PORT: "8000"
+  POSTGRES_SERVER: db.dev.example.internal
+  POSTGRES_PORT: "5432"
+  POSTGRES_DB: points_pds
+  KAFKA_BOOTSTRAP_SERVERS: kafka.dev.example.internal:9092
+  KAFKA_TOPICS: dev-points-adm
+  KAFKA_GROUP_ID: points-adm-dev
+  KAFKA_SASL_MECHANISM: SCRAM-SHA-256
+  KAFKA_SECURITY_PROTOCOL: SASL_PLAINTEXT
+  KEYCLOAK_REALM: apm-dev
+  KEYCLOAK_URL: https://keycloak.dev.example.internal
+  KEYCLOAK_CLIENT_ID: apm-srv
+  LOG_LEVEL: INFO
+  GRAPHQL_IDE: "false"
+  OTEL_ENABLED: "false"
+
+probes:
+  enabled: true
+
+singleSecretRef:
+  enabled: false
+  envName: DATABASE_PASSWORD
+  secretName: points-adm-secret
+  secretKey: POSTGRES_PASSWORD
