@@ -20,6 +20,20 @@
 
 ## Записи
 
+### 2026-08-17 20:16 - TASK_018 - done
+
+- Что сделано: создан `Kubernetes/talos-administration.md` с практическим руководством по Talos Linux `v1.13.x` и `talosctl`: схема кластера, `talosconfig`, endpoints/nodes, диагностика, machine configuration, исправление ошибочной роли worker, безопасное обслуживание etcd, disks/volumes, network и Ethernet offload, logs/runtime, Kubernetes-доступ, `EPHEMERAL`, lifecycle, support bundle и ежедневная шпаргалка; обновлен `Kubernetes/README.md`; критерии `TASK_018` закрыты.
+- Где остановились: документация готова; команды сверены с локальным `talosctl v1.13.5`, встроенной справкой и официальной документацией Talos `v1.13`; изменяющие команды на кластере не выполнялись.
+- Что дальше: при наличии отдельного доступа и разрешения можно проверить read-only команды на тестовом кластере и сохранить обезличенный ожидаемый вывод.
+- Блокеры: нет.
+
+### 2026-08-17 20:16 - TASK_018 - in_progress
+
+- Что сделано: `TASK_018` взята в работу; проверена локальная версия `talosctl v1.13.5`, синтаксис обязательных команд и официальная документация Talos `v1.13`.
+- Где остановились: требования и безопасные ограничения подтверждены; основной материал еще не был создан.
+- Что дальше: создать `Kubernetes/talos-administration.md`, обновить индекс Kubernetes, task registry и журнал.
+- Блокеры: нет.
+
 ### 2026-08-17 18:17 - TASK_017 - done
 
 - Что сделано: создан `Kubernetes/basic-objects.md` с подробным объяснением основных сущностей Kubernetes, схемой control plane/worker, разбором YAML, examples для `Namespace`, `Pod`, labels/selectors, `ReplicaSet`, `Deployment`, `Service`, `ConfigMap`, `Secret`, `PVC`, `StatefulSet`, `DaemonSet`, `Job`, `CronJob`, `Ingress`, Gateway API, probes, resources и диагностики; добавлен cleanup demo-namespace; обновлен индекс `Kubernetes/README.md`.

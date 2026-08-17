@@ -40,3 +40,4 @@
 | 015 | done | Подготовить инструкцию по смене Cilium Gateway VIP и hostname Argo CD | `Tasks/TASK_015.md` | 2026-08-17 |
 | 016 | done | Вынести инструкцию Redis backup/restore из README в отдельный материал | `Tasks/TASK_016.md` | 2026-08-17 |
 | 017 | done | Подготовить подробное объяснение основных сущностей Kubernetes с воспроизводимыми примерами | `Tasks/TASK_017.md` | 2026-08-17 |
+| 018 | done | Подготовить практическую документацию по Talos Linux и talosctl | `Tasks/TASK_018.md` | 2026-08-17 |
