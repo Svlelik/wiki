@@ -37,3 +37,5 @@
 | 012 | done | Подготовить материалы по базовым командам Ansible: установка, запуск playbook и SSH-диагностика | `Tasks/TASK_012.md` | 2026-07-16 |
 | 013 | done | Подготовить инструкцию по интеграции Vault с Kubernetes через External Secrets Operator и Argo CD | `Tasks/TASK_013.md` | 2026-07-20 |
 | 014 | done | Подготовить runbook миграции Talos/Kubernetes/Cilium и исправления gRPC-web для Argo CD | `Tasks/TASK_014.md` | 2026-08-14 |
+| 015 | done | Подготовить инструкцию по смене Cilium Gateway VIP и hostname Argo CD | `Tasks/TASK_015.md` | 2026-08-17 |
+| 016 | done | Вынести инструкцию Redis backup/restore из README в отдельный материал | `Tasks/TASK_016.md` | 2026-08-17 |

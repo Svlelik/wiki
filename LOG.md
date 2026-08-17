@@ -20,6 +20,34 @@
 
 ## Записи
 
+### 2026-08-17 17:41 - TASK_016 - done
+
+- Что сделано: создан `Redis/backup-restore-kubernetes.md` с полной инструкцией резервного копирования и восстановления Redis в Kubernetes; `Redis/README.md` преобразован в индекс раздела со ссылкой на новый материал; `TASK_016.md` закрыт и перенесен в `Tasks/`.
+- Где остановились: документация раздела Redis приведена к общей структуре wiki; процедура восстановления Redis содержательно не менялась.
+- Что дальше: при необходимости добавить отдельные Redis-материалы по мониторингу, persistence, Sentinel или Cluster.
+- Блокеры: нет.
+
+### 2026-08-17 17:41 - TASK_016 - in_progress
+
+- Что сделано: заведена задача `TASK_016.md` на перенос полной инструкции из `Redis/README.md` в отдельный материал раздела и приведение README к индексному формату.
+- Где остановились: постановка задачи оформлена; перенос инструкции и обновление ссылок еще не завершены.
+- Что дальше: создать `Redis/backup-restore-kubernetes.md`, заменить `Redis/README.md` индексом, обновить `TASK.md` и закрыть задачу.
+- Блокеры: нет.
+
+### 2026-08-17 16:36 - TASK_015 - done
+
+- Что сделано: создан `Kubernetes/cilium-vip-and-argocd-hostname.md` с runbook смены VIP `192.168.215.9 -> 192.168.215.18`, hostname Argo CD, DNS/Keycloak, диагностики `argocd-repo-server` в `Init` и фикса `download-tools` без `dl.k8s.io`; в исторический runbook Cilium 1.20 добавлена ссылка на актуальные VIP и hostname; обновлен индекс Kubernetes; `TASK_015.md` закрыт и перенесен в `Tasks/`.
+- Где остановились: документация готова; живой кластер и инфраструктурные репозитории в рамках этой wiki-задачи не изменялись.
+- Что дальше: отдельно проверить DNS `argocd-dev.oro.moscow -> 192.168.215.18` и redirect URI клиента Keycloak `argocd-dev`.
+- Блокеры: нет.
+
+### 2026-08-17 16:29 - TASK_015 - in_progress
+
+- Что сделано: создан `TASK_015.md` на подготовку безопасного runbook выполненного cutover VIP Gateway `192.168.215.9 -> 192.168.215.18`, hostname Argo CD `argocd-talos-dev.oro.moscow -> argocd-dev.oro.moscow` и исправления зависания `argocd-repo-server` в `Init` на `dl.k8s.io`.
+- Где остановились: постановка задачи оформлена; основная инструкция в разделе `Kubernetes` еще не создана.
+- Что дальше: подготовить `Kubernetes/cilium-vip-and-argocd-hostname.md`, обновить индекс раздела, проверить Markdown и закрыть задачу.
+- Блокеры: нет.
+
 ### 2026-08-14 16:12 - TASK_014 - done
 
 - Что сделано: создан `Kubernetes/talos-cilium-1.20-grpc-web-migration.md` с полным безопасным runbook миграции Kubernetes, Cilium, Gateway API и Argo CD; добавлены команды preflight, backup, временного доступа к Talos API, трех minor upgrades, переключения с rollback, проверок gRPC-web и cleanup; обновлен индекс Kubernetes.

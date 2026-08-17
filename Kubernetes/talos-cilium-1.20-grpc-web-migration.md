@@ -10,6 +10,10 @@
 - один общий HTTPS listener и `HTTPRoute -> argocd-server:80`;
 - отключение преобразования gRPC-web в native gRPC.
 
+> **Актуализация 2026-08-17:** VIP Gateway и hostname Argo CD изменены.
+> Актуальные значения и команды cutover — в
+> [cilium-vip-and-argocd-hostname.md](cilium-vip-and-argocd-hostname.md).
+
 > **Важно:** команды `upgrade-k8s`, `helm upgrade`, применение CRD, Gateway и
 > удаление routes изменяют живой кластер. Выполняйте их только после snapshot,
 > проверки rollback и подтверждения правильного context. На однонодовом
