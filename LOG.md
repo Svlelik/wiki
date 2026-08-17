@@ -20,6 +20,27 @@
 
 ## Записи
 
+### 2026-08-17 18:17 - TASK_017 - done
+
+- Что сделано: создан `Kubernetes/basic-objects.md` с подробным объяснением основных сущностей Kubernetes, схемой control plane/worker, разбором YAML, examples для `Namespace`, `Pod`, labels/selectors, `ReplicaSet`, `Deployment`, `Service`, `ConfigMap`, `Secret`, `PVC`, `StatefulSet`, `DaemonSet`, `Job`, `CronJob`, `Ingress`, Gateway API, probes, resources и диагностики; добавлен cleanup demo-namespace; обновлен индекс `Kubernetes/README.md`.
+- Где остановились: документация готова; примеры рассчитаны на тестовый кластер и namespace `k8s-basics-demo`, на живом кластере команды не выполнялись.
+- Что дальше: при необходимости отдельно подготовить продолжение по Helm, CRD/controllers или production hardening.
+- Блокеры: нет.
+
+### 2026-08-17 18:17 - TASK_017 - in_progress
+
+- Что сделано: задача `TASK_017` взята в работу; уточнен объем подробной инструкции по базовым сущностям Kubernetes и безопасным воспроизводимым примерам.
+- Где остановились: нужно создать основной материал `Kubernetes/basic-objects.md` и добавить его в индекс раздела.
+- Что дальше: написать инструкцию, обновить `Kubernetes/README.md`, закрыть критерии готовности и перевести задачу в `done`.
+- Блокеры: нет.
+
+### 2026-08-17 18:12 - TASK_017 - todo
+
+- Что сделано: создан `Tasks/TASK_017.md` на подготовку подробного обучающего материала по основным сущностям Kubernetes с простыми объяснениями, воспроизводимыми примерами и безопасным demo-namespace.
+- Где остановились: постановка задачи готова; основной материал `Kubernetes/basic-objects.md` еще не создан.
+- Что дальше: подготовить `Kubernetes/basic-objects.md`, обновить индекс раздела Kubernetes, проверить Markdown и закрыть задачу.
+- Блокеры: нет.
+
 ### 2026-08-17 17:41 - TASK_016 - done
 
 - Что сделано: создан `Redis/backup-restore-kubernetes.md` с полной инструкцией резервного копирования и восстановления Redis в Kubernetes; `Redis/README.md` преобразован в индекс раздела со ссылкой на новый материал; `TASK_016.md` закрыт и перенесен в `Tasks/`.
