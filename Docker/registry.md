@@ -4,6 +4,10 @@ Docker registry - это хранилище Docker images. Из registry обр�
 
 Самый известный публичный registry - Docker Hub. Также часто используют приватные registry: GitLab Container Registry, GitHub Container Registry, Harbor, Nexus, Artifactory, Amazon ECR, Google Artifact Registry и другие.
 
+Подробное прямое копирование images между registry через Docker CLI, `crane`,
+`skopeo` и Podman описано в
+[отдельной инструкции](copy-images-between-registries.md).
+
 ## Registry, repository, image и tag
 
 В имени образа обычно есть несколько частей:

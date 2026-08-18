@@ -20,6 +20,20 @@
 
 ## Записи
 
+### 2026-08-18 11:05 - TASK_019 - done
+
+- Что сделано: создан `Docker/copy-images-between-registries.md` с объяснением структуры image, сравнением Docker CLI/Crane/Skopeo/Podman, прямым registry-to-registry copy, multi-arch и single-platform сценариями, безопасной авторизацией, digest/platform проверками, HTTP/custom CA, практическим примером Nexus, диагностикой и CI/CD шаблонами; создан `Docker/README.md`; в `Docker/registry.md` добавлена ссылка; критерии `TASK_019` закрыты.
+- Где остановились: документация готова; команды сверены с `crane 0.21.9` и официальными справочниками инструментов; публичный source manifest `kube-webhook-certgen` проверен read-only, push в registry не выполнялся.
+- Что дальше: при наличии отдельного тестового target registry можно проверить копирование Crane/Skopeo end-to-end и сохранить обезличенный отчет с source/target digest.
+- Блокеры: нет.
+
+### 2026-08-18 11:05 - TASK_019 - in_progress
+
+- Что сделано: `TASK_019` взята в работу; изучен текущий материал `Docker/registry.md`, проверены доступные инструменты и read-only manifest публичного `kube-webhook-certgen`.
+- Где остановились: подтверждены source digest и четыре платформы; основной материал еще не был создан.
+- Что дальше: создать инструкцию, индекс Docker, перекрестные ссылки и обновить служебные файлы.
+- Блокеры: нет.
+
 ### 2026-08-17 20:16 - TASK_018 - done
 
 - Что сделано: создан `Kubernetes/talos-administration.md` с практическим руководством по Talos Linux `v1.13.x` и `talosctl`: схема кластера, `talosconfig`, endpoints/nodes, диагностика, machine configuration, исправление ошибочной роли worker, безопасное обслуживание etcd, disks/volumes, network и Ethernet offload, logs/runtime, Kubernetes-доступ, `EPHEMERAL`, lifecycle, support bundle и ежедневная шпаргалка; обновлен `Kubernetes/README.md`; критерии `TASK_018` закрыты.
