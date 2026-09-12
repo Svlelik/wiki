@@ -13,7 +13,7 @@ Hello
   ↓
 состояние 2-Way и решение, нужна ли полная adjacency
   ↓
-ExStart → Exchange → Loading: синхронизация LSDB
+ExStart → Exchange → Loading при недостающих LSA
   ↓
 Full: одинаковая LSDB области после сходимости
   ↓
@@ -469,7 +469,7 @@ sudo vtysh
 
 ```text
 show ip ospf
-show ip ospf interface brief
+show ip ospf interface
 show ip ospf interface eth0
 ```
 
