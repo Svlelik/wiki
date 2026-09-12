@@ -9,6 +9,7 @@
 - `Docker/` - базовые команды Docker, архитектура, volumes и registry.
 - `GlusterFS/` - материалы по распределенному файловому хранилищу GlusterFS.
 - `Vault/` - интеграция HashiCorp Vault с Kubernetes и External Secrets Operator.
+- [`Network/`](Network/README.md) - основы сетей: RIP, IPv4-адресация и расчет подсетей.
 - `Python/`, `Airflow/`, `Kubernetes/`, `Kafka/`, `Redis/`, `Ansible/`, `Terraform/`, `Git/`, `Elasticsearch/` - тематические разделы wiki.
 - `TASK.md` - краткий реестр задач.
 - `TASK_XXX.md` - подробные описания активных и запланированных задач.
